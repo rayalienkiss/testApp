@@ -1,0 +1,22 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "test app",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rayalienkiss/testApp.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "ray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rayalienkiss/testApp/issues"
+  },
+  "homepage": "https://github.com/rayalienkiss/testApp#readme"
+}
