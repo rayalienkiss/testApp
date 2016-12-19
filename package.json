@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/rayalienkiss/testApp/issues"
   },
-  "homepage": "https://github.com/rayalienkiss/testApp#readme"
+  "homepage": "https://github.com/rayalienkiss/testApp#readme",
+  "dependencies": {
+    "webpack": "^1.14.0"
+  }
 }
