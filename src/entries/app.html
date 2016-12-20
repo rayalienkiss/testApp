@@ -6,35 +6,16 @@
     <meta http-equiv="Cache-Control" content="no-siteapp" />
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="copyright" content="本页版权归www.frontpay.cn所有·All Rights Reserved" />
-    <meta name="description" content="<%= htmlWebpackPlugin.options.description %>" />
-    <meta name="keywords" content="<%= htmlWebpackPlugin.options.keywords %>" />
+    <meta name="copyright" content="本页版权归 xxx 所有·All Rights Reserved" />
+    <meta name="description" content="xxx" />
+    <meta name="keywords" content="xxx" />
     <meta name="Robots" content="all" />
     <meta content="email=no" name="format-detection" />
     <meta content="telephone=no" name="format-detection" />
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title>title</title>
   </head>
   <body>
       <div id="app"></div>
-
-      <script type="text/javascript">
-         //判断是否IE，引入babel-polyfill
-         function fuckIE() {
-
-             var script = document.createElement('script');
-
-             script.src = "<%= htmlWebpackPlugin.options.ie %>";
-
-             if (!!window.ActiveXObject || "ActiveXObject" in window) {
-                 document.body.appendChild(script);
-             }
-         }
-         fuckIE();
-
-      </script>
-
-      <% for(var i=0; i<htmlWebpackPlugin.options.js.length; i++) { %>
-        <script src="<%= htmlWebpackPlugin.options.js[i] %>"></script>
-      <% } %>
+      <script src="" type="text/javascript" charset="utf-8"></script>
   </body>
   </html>

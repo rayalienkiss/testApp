@@ -2,9 +2,10 @@
   "name": "test-app",
   "version": "1.0.0",
   "description": "test app",
-  "main": "index.js",
+  "main": "boilerplate-config/webpack.common.js",
   "scripts": {
-    "test": "make test"
+    "test": "just webpack test",
+    "start": "webpack-dev-server --config config/webpack.rap --progress --colors --inline --hot --open",
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,12 @@
   },
   "homepage": "https://github.com/rayalienkiss/testApp#readme",
   "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-router": "^3.0.0",
+    "webpack": "^1.14.0"
+  },
+  "devDependencies": {
     "webpack": "^1.14.0"
   }
 }
