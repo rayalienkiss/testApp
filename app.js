@@ -14,6 +14,4 @@
 //ReactDom.render(routes, document.getElementById('app'));
 
 /*** entry.js ***/
-//document.getElementById('app').innerHTML="123";
-
 var text = require('./switch');
