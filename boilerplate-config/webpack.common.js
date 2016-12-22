@@ -18,7 +18,7 @@ module.exports = {
     // 入口文件输出配置
     output: {
         path: path.join( ROOT_PATH, 'dist' ),
-        filename: "bundle.js"
+        filename: '[name]-[hash].js'
     },
     module: {
         // 加载器配置
