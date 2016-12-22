@@ -12,7 +12,7 @@ var SRC_PATH = path.join( ROOT_PATH, 'src' );
 
 module.exports = {
     // 插件项
-    plugins: [ commonsPlugin ],
+    //plugins: [ commonsPlugin ],
     // 页面入口文件配置
     entry: [ "src/entries/app.js" ],
     // 入口文件输出配置

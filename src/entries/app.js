@@ -16,4 +16,5 @@
 /*** entry.js ***/
 //document.getElementById('app').innerHTML="123";
 
-var text = require('./switch');
+// var text = require('../components/components-ui/switch/index');
+document.write(require("../components/components-ui/switch/index"));

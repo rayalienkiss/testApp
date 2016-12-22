@@ -1,0 +1,47 @@
+# 过滤 IDE 的项目配置信息
+.idea
+.idea/
+.idea/*
+.vscode
+.vscode/
+*.iml
+out
+gen
+
+# 过滤任何程序执行文件
+*.exe
+
+### 过滤 npm 安装模块
+node_modules/
+
+### 过滤 npm debug 文档
+npm-debug.log
+
+### 设置类文档
+.c9*
+.settings
+
+### Windows image file cachesgit
+Thumbs.db
+ehthumbs.db
+
+### Folder config file
+Desktop.ini
+
+### Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+### Mac crap
+.DS_Store
+
+### 过滤 svn 项目配置文档
+.svn`
+
+*.swo
+*.swp
+
+### 过滤任何 log
+*.log
+
+### 过滤 webpack 打包的文件
+dist/

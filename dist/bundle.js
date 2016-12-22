@@ -42,7 +42,7 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
 	/**
 	 * 入口文件
@@ -60,7 +60,17 @@
 	//ReactDom.render(routes, document.getElementById('app'));
 
 	/*** entry.js ***/
-	document.getElementById('app').innerHTML="这是我第一个打包成功的程序";
+	//document.getElementById('app').innerHTML="123";
+
+	// var text = require('../components/components-ui/switch/index');
+	document.write(__webpack_require__(1));
+
+
+/***/ },
+/* 1 */
+/***/ function(module, exports) {
+
+	module.exports = 'it is done';
 
 
 /***/ }

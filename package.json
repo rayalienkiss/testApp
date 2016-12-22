@@ -5,7 +5,7 @@
   "main": "boilerplate-config/webpack.common.js",
   "scripts": {
     "test": "just webpack test",
-    "start": "webpack-dev-server --config config/webpack.rap --progress --colors --inline --hot --open",
+    "start": "webpack-dev-server --config config/webpack.rap --progress --colors --inline --hot --open"
   },
   "repository": {
     "type": "git",
