@@ -49,8 +49,8 @@ module.exports = {
         extensions: [ '', '.js', '.jsx' ],
         // 自定义路径别名，大写用于区别 npm 模块
         alias: {
-            // 公共资源文件路径
-            PUBLIC: path.join( SRC_PATH, 'public' ),
+            // 静态资源路径
+            STATIC: path.join( SRC_PATH, 'static' ),
             // UI组件路径
             COMUI: path.join(SRC_PATH, 'components/components-ui'),
             // 业务组件路径

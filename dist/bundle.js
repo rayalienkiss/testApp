@@ -63,14 +63,14 @@
 	//document.getElementById('app').innerHTML="123";
 
 	// var text = require('../components/components-ui/switch/index');
-	document.write(__webpack_require__(1));
+	document.write( __webpack_require__( 1 ) );
 
 
 /***/ },
 /* 1 */
 /***/ function(module, exports) {
 
-	module.exports = 'it is done';
+	module.exports = 'it is done again';
 
 
 /***/ }
