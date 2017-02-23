@@ -2,10 +2,10 @@
   "name": "test-app",
   "version": "1.0.0",
   "description": "test app",
-  "main": "boilerplate-config/webpack.common.js",
+  "main": "./boilerplate-config/webpack.common.js",
   "scripts": {
-    "test": "just webpack test",
-    "start": "webpack-dev-server --config config/webpack.rap --progress --colors --inline --hot --open"
+    "test": "webpack --config./src/entries/app.js dist/bundle.js",
+    "start": "webpack-dev-server --config boilerplate-config/webpack.rap --progress --colors --inline --hot --open"
   },
   "repository": {
     "type": "git",
@@ -28,9 +28,11 @@
   },
   "devDependencies": {
     "css-loader": "^0.26.1",
+    "html-webpack-plugin": "^2.28.0",
     "less": "^2.7.2",
     "less-loader": "^2.2.3",
     "style-loader": "^0.13.1",
-    "webpack": "^1.14.0"
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^2.4.1"
   }
 }

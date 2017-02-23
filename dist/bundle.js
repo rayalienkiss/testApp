@@ -42,7 +42,7 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
 	/**
 	 * 入口文件
@@ -51,7 +51,7 @@
 	//import ReactDom from 'react-dom';
 
 	// 导入样式
-	import 'STATIC/app.less';
+	//import 'STATIC/app.less';
 
 	// 导入路由配置
 	//import routes from '../routes';
@@ -62,15 +62,15 @@
 	/*** entry.js ***/
 	//document.getElementById('app').innerHTML="123";
 
-	// var text = require('../components/components-ui/switch/index');
-	document.write( __webpack_require__( 1 ) );
+	//var text = require('../components/components-ui/switch/index');
+	//require( "!style!css!../../style.css" );
+	//document.write( require( "../components/components-ui/switch/index" ) );
 
-
-/***/ },
-/* 1 */
-/***/ function(module, exports) {
-
-	module.exports = '123';
+	//var index = require('../components/components-ui/swicth');
+	var app  = document.createElement('div');
+	app.innerHTML = '<h1>Hello World</h1>';
+	app.appendChild(index());
+	document.body.appendChild(app);
 
 
 /***/ }
