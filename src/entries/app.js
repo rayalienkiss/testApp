@@ -5,7 +5,7 @@
 //import ReactDom from 'react-dom';
 
 // 导入样式
-import 'STATIC/less/app.less';
+import 'STATIC/app.less';
 
 // 导入路由配置
 //import routes from '../routes';

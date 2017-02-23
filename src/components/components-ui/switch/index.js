@@ -1,1 +1,1 @@
-module.exports = 'it is done again';
+module.exports = '123';

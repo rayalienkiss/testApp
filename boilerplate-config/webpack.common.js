@@ -28,6 +28,10 @@ module.exports = {
                 loader: 'style-loader!css-loader'
             },
             {
+                test: /\.less$/,
+                loader: 'style-loader!less-loader'
+            },
+            {
                 test: /\.js$/,
                 loader: 'jsx-loader?harmony'
             },

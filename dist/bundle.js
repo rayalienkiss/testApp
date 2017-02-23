@@ -50,8 +50,8 @@
 	//import React from 'react';
 	//import ReactDom from 'react-dom';
 
-	// 导入公共样式
-	//import 'ASSETS/less/app.less';
+	// 导入样式
+	import 'STATIC/app.less';
 
 	// 导入路由配置
 	//import routes from '../routes';
@@ -70,7 +70,7 @@
 /* 1 */
 /***/ function(module, exports) {
 
-	module.exports = 'it is done again';
+	module.exports = '123';
 
 
 /***/ }
